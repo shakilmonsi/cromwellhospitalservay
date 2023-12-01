@@ -335,6 +335,8 @@ app.get('/payments', async (req, res) => {
 
 
          // doctors delete class 76-8 server 
+         // doctors delete class 76-8 server 
+         // doctors delete class 76-8 server 
          app.delete('/doctors/:id',verifyJWT,verifyAdmin, async (req, res) => {
             const id = req.params.id;
             const filter = ({'_id':new ObjectId(id)});
